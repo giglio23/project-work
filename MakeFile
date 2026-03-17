@@ -1,0 +1,15 @@
+CC     = gcc
+CFLAGS = -Wall -Wextra -std=c11 -g
+
+TARGET = moleculegraph
+SRCS   = src/main.c src/molecule.c
+
+all: $(TARGET)
+
+$(TARGET): $(SRCS)
+	$(CC) $(CFLAGS) -o $@ $^
+
+clean:
+	rm -f $(TARGET)
+
+.PHONY: all clean

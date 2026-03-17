@@ -1,0 +1,13 @@
+# Binari e file oggetto
+*.o
+*.out
+moleculegraph
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*~
