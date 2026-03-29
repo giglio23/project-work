@@ -1,6 +1,4 @@
-# Binari e file oggetto
-*.o
-*.out
+# Binario compilato
 moleculegraph
 
 # File di sistema
